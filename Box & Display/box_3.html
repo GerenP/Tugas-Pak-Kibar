@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Positioning</title>
+    </head>
+    <style>
+        .flag {
+            width: 400px;
+            height: 250px;
+            background-color: black;
+            display: flex;
+            border: 1px solid;
+            flex-direction: column  ;
+        }
+        .back_atas {
+            width: 100%;
+            height: 50%;
+            background-color: white;
+        }
+        .back_bawah {
+            width: 100%;
+            height: 50%;
+            background-color: red;
+        }
+        .circle_atas{
+            width: 50px;
+            height: 35px;
+            background-color: red;
+            border: 1px solid;
+            position: absolute;
+            top: 105;
+            left: 60;
+            border-radius: 100px 100px 0px 0px;
+        }
+        .circle_bawah {
+            width: 50px;
+            height: 28px;
+            background-color: white;
+            border: 1px solid;
+            position: absolute;
+            left: 60;
+            top: 133;
+            border-radius: 0px 0px 100px 100px;
+        }
+    </style>
+    <body>
+        <div class="flag">
+            <div class="back_atas"></div>
+            <div class="back_bawah"></div>
+            <div class="circle_atas"></div>
+            <div class="circle_bawah"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,176 @@
+/* === RESET DASAR === */
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === NAVBAR === */
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(10px);
+}
+
+.navbar-scrolled {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #002a86 !important;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #333 !important;
+  transition: color 0.3s ease;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #002a86 !important;
+}
+
+.btn-outline-success {
+  border-color: #002a86;
+  color: #002a86;
+}
+
+.btn-outline-success:hover {
+  background-color: #002a86;
+  color: #fff;
+}
+
+/* === SECTION UTAMA === */
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0; /* Hapus jarak antar gambar */
+  padding: 120px 80px; /* Tambah jarak atas karena navbar fixed */
+  flex-wrap: wrap;
+}
+
+.image-container {
+  margin: 0;
+  padding: 0;
+}
+
+.image-container img {
+  width: 320px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+/* === TEKS KONTEN === */
+.text-container {
+  max-width: 600px;
+  margin-left: 40px;
+}
+
+.text-container p:first-of-type {
+  color: #0033cc;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.text-container h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 0.8rem;
+}
+
+.text-container p:nth-of-type(2) {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 1.5rem;
+}
+
+.text-container p {
+  text-align: justify;
+}
+
+/* === LIST KEUNGGULAN === */
+.option {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.option1 {
+  margin: 10px 0;
+  position: relative;
+  padding-left: 30px;
+  font-weight: 500;
+}
+
+/* ✔ Centang */
+.option1::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #002a86;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+/* === BUTTON === */
+button,
+.btn-primary {
+  background-color: #002a86;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+.btn-primary:hover {
+  background-color: #001f5e;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 992px) {
+  section {
+    flex-direction: column;
+    text-align: center;
+    padding: 120px 20px 60px;
+  }
+
+  .text-container {
+    margin-left: 0;
+  }
+
+  .image-container img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .text-container p {
+    text-align: center;
+  }
+}
+
+/* Efek smooth scroll */
+html {
+  scroll-behavior: smooth;
+}

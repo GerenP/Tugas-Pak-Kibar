@@ -1,0 +1,86 @@
+        .flag {
+            width: 400px;
+            height: 250px;
+            background-color: white;
+            display: flex;
+            border: 1px solid;
+            flex-direction: column;
+        }
+        .cross1{
+            width: 50px;
+            height: 250px;
+            background-color: red;
+            left: 184;
+            position: absolute;
+        }
+        .cross2{
+            width: 400px;
+            height: 50px;
+            background-color: red;
+            top: 108;
+            position: absolute;
+        }
+        .cross3{
+            width: 60px;
+            height: 12px;
+            background-color: red;
+            top: 50;
+            left: 63;
+            position: absolute;
+        }
+        .cross4{
+            width: 12px;
+            height: 60px;
+            background-color: red;
+            top: 27;
+            left: 87;
+            position: absolute;
+        }
+        .cross5{
+            width: 60px;
+            height: 12px;
+            background-color: red;
+            top: 50;
+            left: 290;
+            position: absolute;
+        }
+        .cross6{
+            width: 12px;
+            height: 60px;
+            background-color: red;
+            top: 27;
+            left: 314;
+            position: absolute;
+        }
+        .cross7{
+            width: 60px;
+            height: 12px;
+            background-color: red;
+            top: 200;
+            left: 63;
+            position: absolute;
+        }
+        .cross8{
+            width: 12px;
+            height: 60px;
+            background-color: red;
+            top: 177;
+            left: 87;
+            position: absolute;
+        }
+        .cross9{
+            width: 60px;
+            height: 12px;
+            background-color: red;
+            top: 200;
+            left: 290;
+            position: absolute;
+        }
+        .cross10{
+            width: 12px;
+            height: 60px;
+            background-color: red;
+            top: 177;
+            left: 314;
+            position: absolute;
+        }

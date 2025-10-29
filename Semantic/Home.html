@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Web - Garren Benaya XII PPLG I</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">G - XII PPLG I</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our School</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link disabled" aria-disabled="true">Disabled</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+    <div class="image-container">
+      <img src="Desain-tanpa-judul-10.png" alt="Program Ren Wen">
+    </div>
+    <div class="image-container">
+      <img src="Desain-tanpa-judul-5-1.png" alt="Program Ren Wen">
+    </div>
+
+    <div class="text-container">
+      <p>Sekolah Cinta Kasih Tzu Chi</p>
+      <h1>Program REN WEN</h1>
+      <p>PENDIDIKAN BUDAYA HUMANIS</p>
+      <p>
+        Sekolah Cinta Kasih Tzu Chi bertujuan mengembangkan kemampuan setiap siswa, 
+        baik dari segi pemikiran (mind), jasmani (body), kecerdasan (intelligence), 
+        serta kepekaan terhadap kemampuan mengapresiasi nilai kemanusiaan, kehidupan alam sekitar, 
+        spiritualitas dan seni. Pola Pendidikan kami dalam mengembangkan kebebasan berfikir secara kritis 
+        dan benar serta keputusan untuk memilih dan menjadi ahli dalam kehidupannya 
+        akan berlandaskan kepada perilaku budaya Humanis.
+      </p>
+      <p>Keunikan dan Keunggulan Sekolah Cinta Kasih Tzu Chi ada pada:</p>
+      <ul class="option">
+        <li class="option1">Pendidikan Cara Hidup</li>
+        <li class="option1">Pendidikan Kepribadian</li>
+        <li class="option1">Pendidikan Cinta Kasih</li>
+        <li class="option1">Pendidikan Kehidupan</li>
+      </ul>
+      <button type="button" class="btn-primary">SELENGKAPNYA</button>
+    </div>
+  </section>
+  <script>
+    window.addEventListener('scroll', function() {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 10) {
+        navbar.classList.add('navbar-scrolled');
+      } else {
+       navbar.classList.remove('navbar-scrolled');
+      }
+   });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
